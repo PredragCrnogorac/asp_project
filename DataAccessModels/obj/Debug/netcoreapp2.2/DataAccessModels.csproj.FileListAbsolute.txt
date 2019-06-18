@@ -1,0 +1,11 @@
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\bin\Debug\netcoreapp2.2\DataAccessModels.deps.json
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\bin\Debug\netcoreapp2.2\DataAccessModels.runtimeconfig.json
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\bin\Debug\netcoreapp2.2\DataAccessModels.runtimeconfig.dev.json
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\bin\Debug\netcoreapp2.2\DataAccessModels.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\bin\Debug\netcoreapp2.2\DataAccessModels.pdb
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\obj\Debug\netcoreapp2.2\DataAccessModels.csproj.CoreCompileInputs.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\obj\Debug\netcoreapp2.2\DataAccessModels.AssemblyInfoInputs.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\obj\Debug\netcoreapp2.2\DataAccessModels.AssemblyInfo.cs
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\obj\Debug\netcoreapp2.2\DataAccessModels.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\obj\Debug\netcoreapp2.2\DataAccessModels.pdb
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\DataAccessModels\obj\Debug\netcoreapp2.2\DataAccessModels.csprojAssemblyReference.cache

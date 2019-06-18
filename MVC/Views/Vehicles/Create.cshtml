@@ -1,0 +1,78 @@
+﻿@model MVC.Models.VehicleViewBags.InsertVehicleViewBag
+
+@{
+	ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Insert new vehicle</h4>
+@if (TempData["error"] != null)
+{
+	<p class="text-danger">@TempData["error"]</p>
+}
+<hr />
+
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="Create">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.Model" class="control-label"></label>
+				<input asp-for="@Model.VehicleRequestDTO.Model" class="form-control" />
+				<span asp-validation-for="@Model.VehicleRequestDTO.Model" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.FuelTankCapacity" class="control-label"></label>
+				<input asp-for="@Model.VehicleRequestDTO.FuelTankCapacity" class="form-control" />
+				<span asp-validation-for="@Model.VehicleRequestDTO.FuelTankCapacity" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.CostPerDay" class="control-label"></label>
+				<input asp-for="@Model.VehicleRequestDTO.CostPerDay" class="form-control" />
+				<span asp-validation-for="@Model.VehicleRequestDTO.CostPerDay" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.BrandId" class="control-label"></label>
+				<select asp-for="@Model.VehicleRequestDTO.BrandId" class="form-control">
+					@foreach (var brand in Model.Brands)
+					{
+						<option value="@brand.Id">@brand.Name</option>
+					}
+				</select>
+				<span asp-validation-for="@Model.VehicleRequestDTO.BrandId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.VehicleTypeId" class="control-label"></label>
+				<select asp-for="@Model.VehicleRequestDTO.VehicleTypeId" class="form-control">
+					@foreach (var type in Model.VehTypes)
+					{
+						<option value="@type.Id">@type.Name</option>
+					}
+				</select>
+				<span asp-validation-for="@Model.VehicleRequestDTO.VehicleTypeId" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.Color" class="control-label"></label>
+				<input asp-for="@Model.VehicleRequestDTO.Color" class="form-control" />
+				<span asp-validation-for="@Model.VehicleRequestDTO.Color" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label asp-for="@Model.VehicleRequestDTO.Automatic" class="control-label"></label>
+				<input asp-for="@Model.VehicleRequestDTO.Automatic" class="form-control" />
+				<span asp-validation-for="@Model.VehicleRequestDTO.Automatic" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<input type="submit" value="Create" class="btn btn-primary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+<div>
+	<a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+	@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

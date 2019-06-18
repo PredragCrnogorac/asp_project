@@ -1,0 +1,4 @@
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Release\netcoreapp2.2\EFCommands.csprojAssemblyReference.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Release\netcoreapp2.2\EFCommands.csproj.CoreCompileInputs.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Release\netcoreapp2.2\EFCommands.AssemblyInfoInputs.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Release\netcoreapp2.2\EFCommands.AssemblyInfo.cs

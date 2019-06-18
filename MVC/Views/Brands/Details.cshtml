@@ -1,0 +1,43 @@
+﻿@model Application.DTO.ResponseDTO.BrandResponseDTO
+
+@{
+	ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+@if (TempData["error"] != null)
+{
+	<h4>@TempData["error"]</h4>
+	<div>
+		<a asp-action="Index">Back to List</a>
+	</div>
+}
+else
+{
+	<div>
+		<h4>BrandResponseDTO</h4>
+		<hr />
+		<dl class="row">
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Id)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Id)
+			</dd>
+			<dt class="col-sm-2">
+				@Html.DisplayNameFor(model => model.Name)
+			</dt>
+			<dd class="col-sm-10">
+				@Html.DisplayFor(model => model.Name)
+			</dd>
+		</dl>
+		<h4>Vehicles</h4>
+
+	</div>
+	<div>
+		@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+		<a asp-action="Index">Back to List</a>
+	</div>
+}
+
+

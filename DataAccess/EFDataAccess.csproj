@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190519163536_Inital migration with relations and def values.cs" />
+    <Compile Remove="Migrations\20190519163536_Inital migration with relations and def values.Designer.cs" />
+    <Compile Remove="Migrations\20190519164916_Inital migration with relations and def values.cs" />
+    <Compile Remove="Migrations\20190519164916_Inital migration with relations and def values.Designer.cs" />
+    <Compile Remove="Migrations\20190519165046_Inital migration with relations and def values.cs" />
+    <Compile Remove="Migrations\20190519165046_Inital migration with relations and def values.Designer.cs" />
+    <Compile Remove="Migrations\20190531162801_Adding vehicles, brands and vehicle types.cs" />
+    <Compile Remove="Migrations\20190531162801_Adding vehicles, brands and vehicle types.Designer.cs" />
+    <Compile Remove="Migrations\20190531163304_Adding vehicles, brands and vehicle types. And user foreign key.cs" />
+    <Compile Remove="Migrations\20190531163304_Adding vehicles, brands and vehicle types. And user foreign key.Designer.cs" />
+    <Compile Remove="Migrations\20190609210233_Added transmission table.cs" />
+    <Compile Remove="Migrations\20190609210233_Added transmission table.Designer.cs" />
+    <Compile Remove="Migrations\20190610110407_Adding rent, rent status, customer, relationship table for rents and extra add-ons and configurations.cs" />
+    <Compile Remove="Migrations\20190610110407_Adding rent, rent status, customer, relationship table for rents and extra add-ons and configurations.Designer.cs" />
+    <Compile Remove="Migrations\20190610110923_Adding rent, rent status, customer, relationship table for rents and extra add-ons and configurations.cs" />
+    <Compile Remove="Migrations\20190610110923_Adding rent, rent status, customer, relationship table for rents and extra add-ons and configurations.Designer.cs" />
+    <Compile Remove="Migrations\20190610111532_Adding rent, rent status, customer, relationship table for rents and extra add-ons and configurations.cs" />
+    <Compile Remove="Migrations\20190610111532_Adding rent, rent status, customer, relationship table for rents and extra add-ons and configurations.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccessModels\DataAccessModels.csproj" />
+  </ItemGroup>
+
+</Project>

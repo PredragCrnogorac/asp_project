@@ -1,0 +1,16 @@
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.csprojAssemblyReference.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.csproj.CoreCompileInputs.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.AssemblyInfoInputs.cache
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.AssemblyInfo.cs
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\EFCommands.deps.json
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\EFCommands.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\EFCommands.pdb
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\Application.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\DataAccessModels.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\EFDataAccess.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\Application.pdb
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\EFDataAccess.pdb
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\bin\Debug\netcoreapp2.2\DataAccessModels.pdb
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.csproj.CopyComplete
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.dll
+C:\Users\Shomy\Desktop\Bata ASP\AIFP\EFCommands\obj\Debug\netcoreapp2.2\EFCommands.pdb
