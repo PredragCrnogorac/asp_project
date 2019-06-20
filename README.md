@@ -2,6 +2,7 @@
 API for rent company and basic MVC
 
 Steps to make DB and connect it to project.
+
 Create new empty DB in your SQL Menagmet Studio
 Connect to it in Server Explorer
 Get connection string Connection -> Properties -> Connection string and copy it to this line in DataAcces project -> AIContext
